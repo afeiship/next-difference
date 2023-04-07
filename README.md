@@ -15,7 +15,8 @@ yarn add @jswork/next-difference
 ```js
 import '@jswork/next-difference';
 
-//DOCS here!
+nx.difference([1,2,3], [2,3]);
+// [1]
 ```
 
 ## license
