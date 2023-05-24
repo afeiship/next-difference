@@ -6,7 +6,7 @@ nx.difference = function (inArray1, inArray2) {
   });
 };
 
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
   module.exports = nx.difference;
 }
 
